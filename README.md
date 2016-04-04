@@ -22,7 +22,7 @@ These are mostly classic effects with some versaility mods I'd like to have (but
 small pedals (1590a enclosure)
 -----------------------
 
-After building a [two-stage phaser](https://slackprop.wordpress.com/2016/01/20/transistor-clustering-for-diy-guitar-effects/) in a tiny enclosure like this, I fell in love with the sleek one-knob aesthetic and simplicity. So I decided to try designing a line of compact pedals restricted to a single knob control and/or 1-2 optional switches (if necessary).
+After building a [two-stage phaser](https://slackprop.wordpress.com/2016/01/20/transistor-clustering-for-diy-guitar-effects/) in a tiny enclosure like this, I fell in love with the sleek one-knob aesthetic and simplicity. So I decided to try a line of compact pedals restricted to a single knob control (and maybe a toggle switch).
 
 - Cerberus Boost (three-frequency boost, based on the DA Red Ranger)
 - Cyclops Fuzz (based on the EHX Big Muff Pi v4)
