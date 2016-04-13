@@ -7,6 +7,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-7.5.0/lbr/frames.lbr"
 UsedLibrary="/Applications/EAGLE-7.5.0/gm-lbr/gm-caps-ceramic.lbr"
 UsedLibrary="/Applications/EAGLE-7.5.0/gm-lbr/gm-caps-electro-pol.lbr"
 UsedLibrary="/Applications/EAGLE-7.5.0/gm-lbr/gm-caps-film-box.lbr"
@@ -53,7 +54,7 @@ UsedLibrary="/Applications/EAGLE-7.5.0/mbp-lbr/vactrol.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 -22 599 377"
+Loc="278 272 1119 671"
 State=2
 Number=0
 

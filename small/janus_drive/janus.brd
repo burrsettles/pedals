@@ -79,8 +79,8 @@
 <text x="18.415" y="1.27" size="0.8128" layer="25">OUT</text>
 <text x="12.065" y="1.27" size="0.8128" layer="25">GND</text>
 <text x="15.875" y="1.27" size="0.8128" layer="25">IN</text>
-<text x="1.905" y="3.81" size="1.016" layer="25">JANUS DRIVE</text>
-<text x="1.905" y="2.54" size="0.762" layer="25">© 2016 burr settles</text>
+<text x="1.905" y="3.81" size="0.9652" layer="25" font="vector">JANUS DRIVE</text>
+<text x="1.905" y="2.54" size="0.5588" layer="25" font="vector">(c) 2016 burr settles</text>
 </plain>
 <libraries>
 <library name="capacitors-elec">

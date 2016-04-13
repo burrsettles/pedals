@@ -2084,8 +2084,8 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <part name="C4" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="47n"/>
 <part name="R9" library="resistors" deviceset="R_" device=".3B" value="68k"/>
 <part name="R8" library="resistors" deviceset="R_" device=".3B" value="68k"/>
-<part name="D2" library="diodes" deviceset="DO35" device=".2" value="1N34A"/>
-<part name="D3" library="diodes" deviceset="DO35" device=".2" value="1N34A"/>
+<part name="D2" library="diodes" deviceset="DO35" device=".2" value="1N914"/>
+<part name="D3" library="diodes" deviceset="DO35" device=".2" value="1N914"/>
 <part name="Q3" library="transistors" deviceset="2N5088" device=""/>
 <part name="Q2" library="transistors" deviceset="2N3906" device="-" value="2N3906"/>
 <part name="R12" library="resistors" deviceset="R_" device=".3B" value="10k"/>
