@@ -2240,61 +2240,61 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <part name="IN1" library="gm-supply" deviceset="IN" device=""/>
 <part name="V1" library="gm-supply" deviceset="+9V" device=""/>
 <part name="OUT1" library="gm-supply" deviceset="OUT" device=""/>
-<part name="R3" library="resistors" deviceset="R_" device=".2" value="1M"/>
+<part name="R1" library="resistors" deviceset="R_" device=".2" value="1M"/>
 <part name="R7" library="resistors" deviceset="R_" device=".2" value="470k"/>
-<part name="C2" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.1uF"/>
+<part name="C2" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="100n"/>
 <part name="IC1" library="integrated circuits" deviceset="DUAL" device="TH" value="NE5532"/>
-<part name="R10" library="resistors" deviceset="R_" device=".2" value="1M"/>
-<part name="C11" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.1uF"/>
+<part name="R11" library="resistors" deviceset="R_" device=".2" value="1M"/>
+<part name="C11" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="100n"/>
 <part name="R14" library="resistors" deviceset="R_" device=".2" value="10k"/>
-<part name="C16" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.1uF"/>
-<part name="C17" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.1uF"/>
+<part name="C16" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="100n"/>
+<part name="C17" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="100n"/>
 <part name="R17" library="resistors" deviceset="R_" device=".2" value="10k"/>
 <part name="R16" library="resistors" deviceset="R_" device=".2" value="10k"/>
 <part name="R15" library="resistors" deviceset="R_" device=".2" value="10k"/>
 <part name="IC2" library="integrated circuits" deviceset="PT2399" device="TH" value="PT2399"/>
-<part name="C15" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="3.3nF"/>
-<part name="C14" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="10nF"/>
-<part name="C13" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.1uF"/>
-<part name="C12" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.1uF"/>
+<part name="C12" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="3n3"/>
+<part name="C13" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="10n"/>
+<part name="C14" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="100n"/>
+<part name="C15" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="100n"/>
 <part name="R21" library="resistors" deviceset="R_" device=".2" value="100k"/>
 <part name="R13" library="resistors" deviceset="R_" device=".2" value="10k"/>
-<part name="R20" library="resistors" deviceset="R_" device=".2" value="10k"/>
 <part name="R18" library="resistors" deviceset="R_" device=".2" value="10k"/>
+<part name="R20" library="resistors" deviceset="R_" device=".2" value="10k"/>
 <part name="R19" library="resistors" deviceset="R_" device=".2" value="10k"/>
 <part name="REG1" library="regulators" deviceset="LM78L05" device=""/>
-<part name="C1" library="capacitors-elec" deviceset="050" device="1" value="100uF"/>
-<part name="C4" library="capacitors-elec" deviceset="050" device="1" value="47uF"/>
+<part name="C1" library="capacitors-elec" deviceset="050" device="1" value="100u"/>
+<part name="C4" library="capacitors-elec" deviceset="050" device="1" value="47u"/>
 <part name="DEPTH" library="potentiometers" deviceset="POTS" device="TRIM" value="500k"/>
 <part name="R12" library="resistors" deviceset="R_" device=".2" value="2.2k"/>
-<part name="C7" library="capacitors-elec" deviceset="050" device="1" value="10uF"/>
-<part name="C10" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.1uF"/>
-<part name="C9" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.1uF"/>
+<part name="C7" library="capacitors-elec" deviceset="050" device="1" value="10u"/>
+<part name="C9" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="100n"/>
+<part name="C10" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="100n"/>
 <part name="GND9" library="gm-supply" deviceset="GND" device=""/>
 <part name="GND10" library="gm-supply" deviceset="GND" device=""/>
-<part name="GND3" library="gm-supply" deviceset="GND" device=""/>
+<part name="GND2" library="gm-supply" deviceset="GND" device=""/>
 <part name="GND4" library="gm-supply" deviceset="GND" device=""/>
 <part name="GND6" library="gm-supply" deviceset="GND" device=""/>
 <part name="GND5" library="gm-supply" deviceset="GND" device=""/>
 <part name="R2" library="resistors" deviceset="R_" device=".2" value="220k"/>
-<part name="R1" library="resistors" deviceset="R_" device=".2" value="220k"/>
-<part name="GND2" library="gm-supply" deviceset="GND" device=""/>
-<part name="C3" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="0.01uF"/>
-<part name="R6" library="resistors" deviceset="R_" device=".2" value="220k"/>
+<part name="R3" library="resistors" deviceset="R_" device=".2" value="220k"/>
+<part name="GND3" library="gm-supply" deviceset="GND" device=""/>
+<part name="C3" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="10n"/>
 <part name="R5" library="resistors" deviceset="R_" device=".2" value="220k"/>
+<part name="R6" library="resistors" deviceset="R_" device=".2" value="220k"/>
 <part name="R9" library="resistors" deviceset="R_" device=".2" value="4k7"/>
-<part name="RATE" library="potentiometers" deviceset="POTS" device="SMALL_PADS" value="100k"/>
-<part name="C5" library="capacitors-elec" deviceset="050" device="1" value="10uF"/>
-<part name="GND7" library="gm-supply" deviceset="GND" device=""/>
+<part name="RATE" library="potentiometers" deviceset="POTS" device="SMALL_PADS" value="100kB"/>
+<part name="C6" library="capacitors-elec" deviceset="050" device="1" value="10u"/>
+<part name="GND8" library="gm-supply" deviceset="GND" device=""/>
 <part name="Q1" library="transistors" deviceset="2N5457" device=""/>
-<part name="C8" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="3.9nF"/>
-<part name="R11" library="resistors" deviceset="R_" device=".2" value="1M"/>
+<part name="C8" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="3n9"/>
+<part name="R10" library="resistors" deviceset="R_" device=".2" value="1M"/>
 <part name="R4" library="resistors" deviceset="R_" device=".2" value="10k"/>
 <part name="R8" library="resistors" deviceset="R_" device=".2" value="10k"/>
-<part name="C6" library="capacitors-elec" deviceset="050" device="1" value="47uF"/>
-<part name="GND8" library="gm-supply" deviceset="GND" device=""/>
-<part name="PAD2" library="supply pins" deviceset="PAD" device="SQR"/>
+<part name="C5" library="capacitors-elec" deviceset="050" device="1" value="47u"/>
+<part name="GND7" library="gm-supply" deviceset="GND" device=""/>
 <part name="PAD1" library="supply pins" deviceset="PAD" device="SQR"/>
+<part name="PAD2" library="supply pins" deviceset="PAD" device="SQR"/>
 <part name="PAD5" library="supply pins" deviceset="PAD" device="SQR"/>
 <part name="GND1" library="gm-supply" deviceset="GND" device=""/>
 <part name="PAD4" library="supply pins" deviceset="PAD" device="RND"/>
@@ -2309,68 +2309,68 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <instance part="IN1" gate="G$1" x="-20.32" y="81.28"/>
 <instance part="V1" gate="+9V" x="-20.32" y="48.26" rot="R90"/>
 <instance part="OUT1" gate="G$1" x="165.1" y="78.74"/>
-<instance part="R3" gate="G$1" x="2.54" y="73.66" rot="R90"/>
-<instance part="R7" gate="G$1" x="27.94" y="81.28" rot="R180"/>
-<instance part="C2" gate="G$1" x="17.78" y="81.28"/>
+<instance part="R1" gate="G$1" x="-7.62" y="73.66" rot="R90"/>
+<instance part="R7" gate="G$1" x="22.86" y="81.28" rot="MR0"/>
+<instance part="C2" gate="G$1" x="2.54" y="81.28"/>
 <instance part="IC1" gate="_B" x="63.5" y="78.74" rot="MR180"/>
-<instance part="IC1" gate="_A" x="25.4" y="-10.16" rot="MR180"/>
-<instance part="R10" gate="G$1" x="60.96" y="88.9" rot="R180"/>
+<instance part="IC1" gate="_A" x="20.32" y="-7.62" rot="MR180"/>
+<instance part="R11" gate="G$1" x="71.12" y="88.9" rot="MR0"/>
 <instance part="C11" gate="G$1" x="91.44" y="71.12" rot="R90"/>
-<instance part="R14" gate="G$1" x="111.76" y="78.74" rot="R180"/>
-<instance part="C16" gate="G$1" x="121.92" y="78.74"/>
+<instance part="R14" gate="G$1" x="106.68" y="78.74" rot="MR0"/>
+<instance part="C16" gate="G$1" x="124.46" y="78.74"/>
 <instance part="C17" gate="G$1" x="139.7" y="71.12" rot="R90"/>
 <instance part="R17" gate="G$1" x="139.7" y="55.88" rot="R90"/>
 <instance part="R16" gate="G$1" x="129.54" y="55.88" rot="R90"/>
 <instance part="R15" gate="G$1" x="119.38" y="55.88" rot="R90"/>
 <instance part="IC2" gate="G$1" x="101.6" y="12.7"/>
-<instance part="C15" gate="G$1" x="119.38" y="43.18" rot="R90"/>
-<instance part="C14" gate="G$1" x="119.38" y="22.86" rot="R90"/>
-<instance part="C13" gate="G$1" x="119.38" y="2.54" rot="R90"/>
-<instance part="C12" gate="G$1" x="119.38" y="-17.78" rot="R90"/>
+<instance part="C12" gate="G$1" x="119.38" y="43.18" rot="R90"/>
+<instance part="C13" gate="G$1" x="119.38" y="22.86" rot="R90"/>
+<instance part="C14" gate="G$1" x="119.38" y="2.54" rot="R90"/>
+<instance part="C15" gate="G$1" x="119.38" y="-17.78" rot="R90"/>
 <instance part="R21" gate="G$1" x="154.94" y="71.12" rot="R90"/>
-<instance part="R13" gate="G$1" x="104.14" y="63.5" rot="R180"/>
-<instance part="R20" gate="G$1" x="152.4" y="27.94" rot="R180"/>
-<instance part="R18" gate="G$1" x="152.4" y="7.62" rot="R180"/>
-<instance part="R19" gate="G$1" x="152.4" y="17.78" rot="R180"/>
+<instance part="R13" gate="G$1" x="106.68" y="63.5" rot="MR0"/>
+<instance part="R18" gate="G$1" x="152.4" y="27.94" rot="MR0"/>
+<instance part="R20" gate="G$1" x="152.4" y="7.62" rot="MR0"/>
+<instance part="R19" gate="G$1" x="152.4" y="17.78" rot="MR0"/>
 <instance part="REG1" gate="G$1" x="25.4" y="48.26"/>
-<instance part="C1" gate="1" x="12.7" y="38.1" rot="R270"/>
-<instance part="C4" gate="1" x="38.1" y="38.1" rot="R270"/>
+<instance part="C1" gate="1" x="12.7" y="38.1" rot="MR270"/>
+<instance part="C4" gate="1" x="38.1" y="38.1" rot="MR270"/>
 <instance part="DEPTH" gate="G$1" x="53.34" y="38.1" rot="R270"/>
-<instance part="R12" gate="G$1" x="81.28" y="38.1" rot="R180"/>
-<instance part="C7" gate="1" x="53.34" y="27.94" rot="R270"/>
-<instance part="C10" gate="G$1" x="81.28" y="7.62"/>
-<instance part="C9" gate="G$1" x="81.28" y="-2.54"/>
+<instance part="R12" gate="G$1" x="81.28" y="38.1" rot="MR180"/>
+<instance part="C7" gate="1" x="53.34" y="27.94" rot="MR270"/>
+<instance part="C9" gate="G$1" x="81.28" y="7.62"/>
+<instance part="C10" gate="G$1" x="81.28" y="-2.54"/>
 <instance part="GND9" gate="GND" x="73.66" y="-30.48"/>
 <instance part="GND10" gate="GND" x="154.94" y="58.42"/>
-<instance part="GND3" gate="GND" x="2.54" y="60.96"/>
+<instance part="GND2" gate="GND" x="-7.62" y="63.5"/>
 <instance part="GND4" gate="GND" x="12.7" y="30.48"/>
 <instance part="GND6" gate="GND" x="38.1" y="30.48"/>
 <instance part="GND5" gate="GND" x="25.4" y="30.48"/>
-<instance part="R2" gate="G$1" x="2.54" y="-5.08" rot="R90"/>
-<instance part="R1" gate="G$1" x="2.54" y="-20.32" rot="R90"/>
-<instance part="GND2" gate="GND" x="2.54" y="-27.94"/>
-<instance part="C3" gate="G$1" x="25.4" y="0"/>
-<instance part="R6" gate="G$1" x="25.4" y="10.16" rot="R180"/>
-<instance part="R5" gate="G$1" x="25.4" y="-20.32" rot="R180"/>
-<instance part="R9" gate="G$1" x="40.64" y="-20.32" rot="R180"/>
+<instance part="R2" gate="G$1" x="2.54" y="-2.54" rot="R90"/>
+<instance part="R3" gate="G$1" x="2.54" y="-17.78" rot="R90"/>
+<instance part="GND3" gate="GND" x="2.54" y="-27.94"/>
+<instance part="C3" gate="G$1" x="22.86" y="2.54"/>
+<instance part="R5" gate="G$1" x="20.32" y="12.7" rot="MR0"/>
+<instance part="R6" gate="G$1" x="22.86" y="-20.32" rot="MR0"/>
+<instance part="R9" gate="G$1" x="40.64" y="-20.32" rot="MR0"/>
 <instance part="RATE" gate="G$1" x="53.34" y="-20.32" rot="MR0"/>
-<instance part="C5" gate="1" x="40.64" y="5.08" rot="R270"/>
-<instance part="GND7" gate="GND" x="40.64" y="-2.54"/>
+<instance part="C6" gate="1" x="45.72" y="7.62" rot="MR270"/>
+<instance part="GND8" gate="GND" x="45.72" y="0"/>
 <instance part="Q1" gate="G$1" x="71.12" y="15.24"/>
 <instance part="C8" gate="G$1" x="63.5" y="20.32" rot="R90"/>
-<instance part="R11" gate="G$1" x="63.5" y="5.08" rot="R90"/>
+<instance part="R10" gate="G$1" x="63.5" y="5.08" rot="R90"/>
 <instance part="R4" gate="G$1" x="12.7" y="68.58" rot="R90"/>
-<instance part="R8" gate="G$1" x="35.56" y="68.58" rot="R90"/>
-<instance part="C6" gate="1" x="43.18" y="68.58" rot="R270"/>
-<instance part="GND8" gate="GND" x="43.18" y="58.42"/>
-<instance part="PAD2" gate="G$1" x="-15.24" y="81.28"/>
-<instance part="PAD1" gate="G$1" x="-15.24" y="48.26"/>
+<instance part="R8" gate="G$1" x="33.02" y="68.58" rot="R90"/>
+<instance part="C5" gate="1" x="43.18" y="68.58" rot="MR270"/>
+<instance part="GND7" gate="GND" x="43.18" y="58.42"/>
+<instance part="PAD1" gate="G$1" x="-15.24" y="81.28"/>
+<instance part="PAD2" gate="G$1" x="-15.24" y="48.26"/>
 <instance part="PAD5" gate="G$1" x="160.02" y="78.74"/>
 <instance part="IC1" gate="_PWR" x="-2.54" y="30.48"/>
 <instance part="GND1" gate="GND" x="-2.54" y="20.32"/>
 <instance part="PAD4" gate="G$1" x="154.94" y="63.5" rot="R90"/>
 <instance part="D1" gate="G$1" x="-5.08" y="48.26"/>
-<instance part="PAD3" gate="G$1" x="2.54" y="66.04" rot="R90"/>
+<instance part="PAD3" gate="G$1" x="-7.62" y="66.04" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -2383,7 +2383,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <wire x1="119.38" y1="48.26" x2="119.38" y2="46.99" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="48.26" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
 <junction x="119.38" y="48.26"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -2395,13 +2395,13 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <wire x1="129.54" y1="50.8" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 <junction x="119.38" y="38.1"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="63.5" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
@@ -2413,7 +2413,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="LPF2-OUT"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="27.94" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
@@ -2421,18 +2421,18 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <wire x1="139.7" y1="50.8" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
 <junction x="139.7" y="27.94"/>
 <junction x="119.38" y="27.94"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="26.67" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OP2-OUT"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="7.62" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="7.62" x2="147.32" y2="7.62" width="0.1524" layer="91"/>
 <junction x="119.38" y="7.62"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="6.35" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2443,16 +2443,16 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <wire x1="114.3" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
 <junction x="119.38" y="17.78"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="19.05" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="27.94" x2="162.56" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="27.94" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="17.78" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="7.62" x2="157.48" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -2465,7 +2465,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <pinref part="IC2" gate="G$1" pin="OP2-IN"/>
 <wire x1="114.3" y1="-2.54" x2="119.38" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-2.54" x2="119.38" y2="-1.27" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -2473,7 +2473,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <pinref part="IC2" gate="G$1" pin="OP1-IN"/>
 <wire x1="114.3" y1="-12.7" x2="119.38" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-12.7" x2="119.38" y2="-13.97" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -2481,7 +2481,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <pinref part="IC2" gate="G$1" pin="OP1-OUT"/>
 <wire x1="114.3" y1="-22.86" x2="119.38" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-22.86" x2="119.38" y2="-21.59" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -2494,7 +2494,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="78.74" x2="118.11" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="78.74" x2="120.65" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -2502,7 +2502,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <segment>
 <pinref part="OUT1" gate="G$1" pin="OUT"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="125.73" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="128.27" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="78.74" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="78.74" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
@@ -2521,9 +2521,9 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <pinref part="IC1" gate="_B" pin="OUT"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="78.74" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="88.9" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
 <junction x="91.44" y="78.74"/>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -2533,9 +2533,9 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="88.9" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="_B" pin="-IN"/>
 <wire x1="55.88" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
@@ -2545,21 +2545,21 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="81.28" x2="21.59" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="81.28" x2="6.35" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IN" class="0">
 <segment>
 <pinref part="IN1" gate="G$1" pin="IN"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="13.97" y1="81.28" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="81.28" x2="-15.24" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-1.27" y1="81.28" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="81.28" x2="-15.24" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="81.28" x2="-17.78" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="78.74" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
-<junction x="2.54" y="81.28"/>
+<wire x1="-7.62" y1="78.74" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-7.62" y="81.28"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="PAD2" gate="G$1" pin="P$1"/>
+<pinref part="PAD1" gate="G$1" pin="P$1"/>
 <junction x="-15.24" y="81.28"/>
 </segment>
 </net>
@@ -2567,7 +2567,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="67.31" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -2577,7 +2577,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <pinref part="V1" gate="+9V" pin="+9V"/>
 <wire x1="-17.78" y1="48.26" x2="-15.24" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="48.26" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="PAD1" gate="G$1" pin="P$1"/>
+<pinref part="PAD2" gate="G$1" pin="P$1"/>
 <junction x="-15.24" y="48.26"/>
 </segment>
 </net>
@@ -2600,7 +2600,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <segment>
 <pinref part="IC2" gate="G$1" pin="REF"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -2614,7 +2614,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="38.1" x2="59.69" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="38.1" x2="59.69" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="DEPTH" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -2641,12 +2641,12 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <wire x1="73.66" y1="-22.86" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="73.66" y="-22.86"/>
 <pinref part="GND9" gate="GND" pin="GND"/>
-<pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="73.66" y1="10.16" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
 <junction x="73.66" y="7.62"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="0" x2="63.5" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
@@ -2672,20 +2672,21 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="GND2" gate="GND" pin="GND"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="GND" pin="GND"/>
+<wire x1="2.54" y1="-22.86" x2="2.54" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="1" pin="-"/>
-<pinref part="GND7" gate="GND" pin="GND"/>
+<pinref part="C6" gate="1" pin="-"/>
+<pinref part="GND8" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="63.5" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C6" gate="1" pin="-"/>
+<wire x1="33.02" y1="63.5" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C5" gate="1" pin="-"/>
 <wire x1="43.18" y1="60.96" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="GND" pin="GND"/>
+<pinref part="GND7" gate="GND" pin="GND"/>
 <junction x="43.18" y="60.96"/>
 </segment>
 <segment>
@@ -2693,69 +2694,53 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <pinref part="GND1" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="GND3" gate="GND" pin="GND"/>
-<wire x1="2.54" y1="68.58" x2="2.54" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="GND2" gate="GND" pin="GND"/>
+<wire x1="-7.62" y1="68.58" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="PAD3" gate="G$1" pin="P$1"/>
-<wire x1="2.54" y1="66.04" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
-<junction x="2.54" y="66.04"/>
+<junction x="-7.62" y="66.04"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="CC1"/>
 <wire x1="88.9" y1="7.62" x2="85.09" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="CC0"/>
 <wire x1="88.9" y1="-2.54" x2="85.09" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="0" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="21.59" y1="0" x2="15.24" y2="0" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="15.24" y="0"/>
+<wire x1="19.05" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="10.16" y="2.54"/>
 <pinref part="IC1" gate="_A" pin="-IN"/>
-<wire x1="15.24" y1="-7.62" x2="17.78" y2="-7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="-20.32" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-20.32" x2="35.56" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="33.02" y="-20.32"/>
-<pinref part="IC1" gate="_A" pin="OUT"/>
-<wire x1="33.02" y1="-10.16" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="0" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="33.02" y="-10.16"/>
-<wire x1="33.02" y1="0" x2="29.21" y2="0" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="C7" gate="1" pin="-"/>
-<wire x1="53.34" y1="22.86" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="10.16" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="C5" gate="1" pin="+"/>
-<wire x1="40.64" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="7.62" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
-<junction x="40.64" y="10.16"/>
-<junction x="53.34" y="10.16"/>
+<wire x1="53.34" y1="22.86" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="C6" gate="1" pin="+"/>
+<wire x1="45.72" y1="12.7" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="10.16" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
+<junction x="45.72" y="12.7"/>
+<junction x="53.34" y="12.7"/>
 <pinref part="RATE" gate="G$1" pin="3"/>
-<wire x1="53.34" y1="-13.97" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-13.97" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -2767,7 +2752,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="63.5" y1="16.51" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="12.7" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
@@ -2779,13 +2764,13 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="76.2" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="76.2" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="76.2" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="73.66" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
-<junction x="35.56" y="76.2"/>
-<pinref part="C6" gate="1" pin="+"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<junction x="33.02" y="76.2"/>
+<pinref part="C5" gate="1" pin="+"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="_B" pin="+IN"/>
 <wire x1="55.88" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
@@ -2794,18 +2779,18 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="-20.32" x2="15.24" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="-20.32" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="-10.16" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="_A" pin="+IN"/>
-<wire x1="2.54" y1="-12.7" x2="2.54" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-12.7" x2="15.24" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="2.54" y="-12.7"/>
-<wire x1="15.24" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="-20.32" x2="15.24" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="15.24" y="-12.7"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="2.54" y="-10.16"/>
+<wire x1="10.16" y1="-10.16" x2="2.54" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="10.16" y="-10.16"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -2818,7 +2803,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <wire x1="12.7" y1="40.64" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <junction x="12.7" y="48.26"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
 <junction x="2.54" y="48.26"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="38.1" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
@@ -2827,6 +2812,22 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <pinref part="IC1" gate="_PWR" pin="V+"/>
 <wire x1="-2.54" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
 <junction x="2.54" y="38.1"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="2.54" x2="26.67" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-20.32" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-20.32" x2="35.56" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="2.54" x2="33.02" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="33.02" y="-20.32"/>
+<pinref part="IC1" gate="_A" pin="OUT"/>
+<wire x1="33.02" y1="-7.62" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-7.62" x2="33.02" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="33.02" y="-7.62"/>
 </segment>
 </net>
 </nets>

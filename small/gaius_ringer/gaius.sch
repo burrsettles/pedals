@@ -2112,10 +2112,10 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <sheets>
 <sheet>
 <plain>
-<text x="2.54" y="15.24" size="5.08" layer="97">GAIUS RINGER</text>
-<text x="2.54" y="2.54" size="2.54" layer="97">OCTAVER / RING MODULATOR
-based on the Dan Armstrong Green Ringer
-© 2016 burr settles</text>
+<text x="2.54" y="12.7" size="6.4516" layer="97">GAIUS RINGER</text>
+<text x="2.54" y="2.54" size="1.9304" layer="97">OCTAVER / RING MODULATOR
+based on the dan armstrong green ringer
+(c) 2016 burr settles</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="27.94" y="48.26"/>

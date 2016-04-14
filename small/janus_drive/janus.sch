@@ -2152,11 +2152,11 @@ Marquardt</description>
 <sheets>
 <sheet>
 <plain>
-<text x="78.74" y="76.2" size="5.08" layer="97">JANUS DRIVE</text>
-<text x="78.74" y="60.96" size="2.54" layer="97">OVERDRIVE / DISTORTION
-mashup of the Dan Armstrong Blue Clipper,
-MXR Dist+, DOD 250, and MXR MicroAmp
-© 2016 burr settles</text>
+<text x="78.74" y="73.66" size="6.4516" layer="97">JANUS DRIVE</text>
+<text x="78.74" y="60.96" size="1.9304" layer="97">OVERDRIVE / DISTORTION
+mashup of the dan armstrong blue clipper,
+mxr dist+, dod 250, and mxr microamp
+(c) 2016 burr settles</text>
 </plain>
 <instances>
 <instance part="R5" gate="G$1" x="53.34" y="38.1"/>
