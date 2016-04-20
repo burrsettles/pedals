@@ -51,5 +51,12 @@ UsedLibrary="/Applications/EAGLE-7.5.0/mbp-lbr/transistors.lbr"
 UsedLibrary="/Applications/EAGLE-7.5.0/mbp-lbr/tubes.lbr"
 UsedLibrary="/Applications/EAGLE-7.5.0/mbp-lbr/vactrol.lbr"
 
+[Win_1]
+Type="Control Panel"
+Loc="0 -22 599 377"
+State=2
+Number=0
+
 [Desktop]
 Screen="1680 1050"
+Window="Win_1"

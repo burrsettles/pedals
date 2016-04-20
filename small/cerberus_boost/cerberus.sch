@@ -1851,7 +1851,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <sheet>
 <plain>
 <text x="2.54" y="12.7" size="6.4516" layer="97">CERBERUS</text>
-<text x="2.54" y="2.54" size="1.9304" layer="97">THREE-FREQUENCY BOOSTER
+<text x="2.54" y="2.54" size="1.9304" layer="97">FREQUENCY RANGE BOOSTER
 based on the dan armstrong red ranger
 (c) 2016 burr settles</text>
 <text x="93.98" y="7.62" size="1.4224" layer="97">range switch: on/off/on

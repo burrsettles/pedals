@@ -538,13 +538,13 @@ Please make sure your boards conform to these design rules.</description>
 <element name="PAD5" library="supply pins" package="SQUARE" value="PADSQR" x="30.48" y="3.175"/>
 <element name="DEPTH" library="potentiometers" package="2262_TRIM" value="500k" x="5.08" y="49.53" rot="R180"/>
 <element name="RATE" library="potentiometers" package="PADS_SMALL" value="100kB" x="13.335" y="50.8"/>
-<element name="Q1" library="transistors" package="TO92-" value="2N5457" x="10.16" y="25.4"/>
+<element name="Q1" library="transistors" package="TO92-" value="J112" x="10.16" y="25.4"/>
 <element name="R1" library="resistors" package="R0207/2V" value="1M" x="25.4" y="12.7" rot="R270"/>
 <element name="R13" library="resistors" package="R0207/2V" value="10k" x="22.86" y="25.4" rot="R90"/>
 <element name="R18" library="resistors" package="R0207/2V" value="10k" x="17.78" y="17.78" rot="R180"/>
 <element name="R20" library="resistors" package="R0207/2V" value="10k" x="17.78" y="10.16" rot="R180"/>
 <element name="R19" library="resistors" package="R0207/2V" value="10k" x="17.78" y="12.7" rot="R180"/>
-<element name="R12" library="resistors" package="R0207/2V" value="2.2k" x="2.54" y="20.32" rot="R90"/>
+<element name="R12" library="resistors" package="R0207/2V" value="2k2" x="2.54" y="20.32" rot="R90"/>
 <element name="R2" library="resistors" package="R0207/2V" value="220k" x="21.59" y="48.26" rot="R180"/>
 <element name="R3" library="resistors" package="R0207/2V" value="220k" x="15.24" y="35.56"/>
 <element name="R5" library="resistors" package="R0207/2V" value="220k" x="25.4" y="40.64"/>
