@@ -2201,7 +2201,7 @@ NS Package M08A</description>
 <part name="GND1" library="gm-supply" deviceset="GND" device=""/>
 <part name="C1" library="capacitors-film" deviceset="CER/FILM" device="BOX.1" value="150nF"/>
 <part name="R2" library="resistors" deviceset="R_" device=".2" value="56k"/>
-<part name="C2" library="capacitors-elec" deviceset="063" device="1" value="200uF"/>
+<part name="C2" library="capacitors-elec" deviceset="063" device="1" value="100u"/>
 <part name="R6" library="resistors" deviceset="R_" device=".2" value="220k"/>
 <part name="R5" library="resistors" deviceset="R_" device=".2" value="220k"/>
 <part name="GND4" library="gm-supply" deviceset="GND" device=""/>
