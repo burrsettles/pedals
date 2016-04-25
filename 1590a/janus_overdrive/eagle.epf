@@ -1,0 +1,43 @@
+[Eagle]
+Version="07 05 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/40xx-2.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/PedalSync_Module_Footprint_Library_v2.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/Relay.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/SMD.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/capacitors-elec.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/capacitors-film.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/diodes.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/enclosures.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/headers.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/inductors.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/integrated circuits.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/jacks.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/misc.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/ota.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/potentiometers.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/regulators.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/resistors.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/submini tubes.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/supply pins.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/switches.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/transformer.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/transistors.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/tubes.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/rebelstrust-lbr/vactrol.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 -22 599 377"
+State=1
+Number=0
+
+[Desktop]
+Screen="1680 1050"
+Window="Win_1"

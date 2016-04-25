@@ -2349,7 +2349,11 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="20.32" size="1.778" layer="97">TREMOLO</text>
+<text x="2.54" y="15.24" size="6.4516" layer="97">PHRIKE</text>
+<text x="2.54" y="2.54" size="1.9304" layer="97">TREMOLO
+based on the ea tremolo by anthony leo
+(electronics australia magazine, 1968)
+(c)2016 burr settles</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="35.56" y="45.72" rot="R90"/>
@@ -2717,4 +2721,10 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
