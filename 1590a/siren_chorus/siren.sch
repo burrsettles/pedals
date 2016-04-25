@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2309,6 +2309,7 @@ grid 2.54 mm</description>
 <part name="GND3" library="supply pins" deviceset="GND" device=""/>
 <part name="L+" library="supply pins" deviceset="PAD" device="SQR"/>
 <part name="PAD1" library="supply pins" deviceset="PAD" device=""/>
+<part name="GND8" library="supply pins" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2385,6 +2386,7 @@ based on the madbean pedals glam
 <instance part="GND3" gate="GND" x="53.34" y="71.12"/>
 <instance part="L+" gate="G$1" x="96.52" y="27.94" rot="R180"/>
 <instance part="PAD1" gate="G$1" x="81.28" y="78.74"/>
+<instance part="GND8" gate="GND" x="203.2" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -2457,26 +2459,10 @@ based on the madbean pedals glam
 <junction x="132.08" y="50.8"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="52.07" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="DGND"/>
-<wire x1="142.24" y1="50.8" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="50.8" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="50.8" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<junction x="142.24" y="50.8"/>
-<pinref part="IC2" gate="G$1" pin="AGND"/>
-<wire x1="193.04" y1="60.96" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
-<junction x="193.04" y="50.8"/>
-<wire x1="182.88" y1="50.8" x2="182.88" y2="52.07" width="0.1524" layer="91"/>
-<junction x="182.88" y="50.8"/>
-<wire x1="172.72" y1="50.8" x2="172.72" y2="52.07" width="0.1524" layer="91"/>
-<junction x="172.72" y="50.8"/>
 <wire x1="88.9" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <junction x="88.9" y="63.5"/>
 <junction x="101.6" y="63.5"/>
 <junction x="71.12" y="63.5"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="GND" gate="G$1" pin="P$1"/>
 <junction x="101.6" y="50.8"/>
 <pinref part="GND2" gate="GND" pin="GND"/>
@@ -2484,6 +2470,23 @@ based on the madbean pedals glam
 <segment>
 <pinref part="9V" gate="DC" pin="SLEEVE"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="DGND"/>
+<wire x1="203.2" y1="50.8" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="50.8" x2="172.72" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="50.8" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="50.8" x2="182.88" y2="52.07" width="0.1524" layer="91"/>
+<junction x="182.88" y="50.8"/>
+<wire x1="182.88" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
+<junction x="193.04" y="50.8"/>
+<pinref part="IC2" gate="G$1" pin="AGND"/>
+<wire x1="193.04" y1="60.96" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="GND" pin="GND"/>
+<junction x="203.2" y="50.8"/>
 </segment>
 </net>
 <net name="VC" class="0">
@@ -2507,11 +2510,9 @@ based on the madbean pedals glam
 <pinref part="PAD1" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="137.16" x2="101.6" y2="138.43" width="0.1524" layer="91"/>
 <label x="101.6" y="139.7" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="BIAS" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="138.43" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
-<junction x="101.6" y="138.43"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -2614,24 +2615,6 @@ based on the madbean pedals glam
 <wire x1="152.4" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <junction x="152.4" y="109.22"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="LPF2-IN"/>
-<wire x1="162.56" y1="86.36" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="91.44" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
-<junction x="162.56" y="91.44"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="109.22" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="161.29" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="127" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
-<junction x="162.56" y="124.46"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<junction x="162.56" y="109.22"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -2870,6 +2853,26 @@ based on the madbean pedals glam
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="9V" gate="DC" pin="TIP"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="127" y1="124.46" x2="151.13" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="124.46" x2="153.67" y2="124.46" width="0.1524" layer="91" curve="-180" cap="flat"/>
+<wire x1="153.67" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
+<junction x="162.56" y="124.46"/>
+<wire x1="162.56" y1="109.22" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<junction x="162.56" y="109.22"/>
+<pinref part="IC2" gate="G$1" pin="LPF2-IN"/>
+<wire x1="162.56" y1="86.36" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="91.44" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<junction x="162.56" y="91.44"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="161.29" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

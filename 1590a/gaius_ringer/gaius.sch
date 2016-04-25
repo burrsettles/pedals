@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2309,12 +2309,16 @@ based on the dan armstrong green ringer
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="Q3" gate="G$1" pin="B"/>
-<wire x1="88.9" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="63.5" x2="92.71" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="63.5" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="88.9" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="43.18" x2="92.71" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
 <junction x="101.6" y="53.34"/>
+<wire x1="92.71" y1="63.5" x2="95.25" y2="63.5" width="0.1524" layer="91" curve="-180" cap="flat"/>
+<wire x1="92.71" y1="43.18" x2="95.25" y2="43.18" width="0.1524" layer="91" curve="-180" cap="flat"/>
 </segment>
 </net>
 <net name="IN" class="0">
