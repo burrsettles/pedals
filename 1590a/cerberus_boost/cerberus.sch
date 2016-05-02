@@ -2399,7 +2399,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <part name="GND1" library="gm-supply" deviceset="GND" device=""/>
 <part name="GND6" library="gm-supply" deviceset="GND" device=""/>
 <part name="GND4" library="gm-supply" deviceset="GND" device=""/>
-<part name="R13" library="resistors" deviceset="R_" device=".3B" value="2M2***"/>
+<part name="R13" library="resistors" deviceset="R_" device=".3B" value="1M"/>
 <part name="GND7" library="gm-supply" deviceset="GND" device=""/>
 <part name="D1" library="diodes" deviceset="DO41" device=".3" value="1N5817"/>
 <part name="9V" library="jacks" deviceset="DC_MONO" device=""/>
