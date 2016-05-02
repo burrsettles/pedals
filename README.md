@@ -15,17 +15,17 @@ I'm naming the pedals after various mythological characters.
 
 After building a [two-stage phaser](https://slackprop.wordpress.com/2016/01/20/transistor-clustering-for-diy-guitar-effects/) in a tiny enclosure like this, I fell in love with the sleek one-knob aesthetic and simplicity. So I decided to try a line of compact pedals restricted to a single knob control (and maybe a toggle switch).
 
-- Cerberus Boost (three-frequency boost, based on the DA Red Ranger)
-- Cyclops Fuzz (based on the EHX Big Muff Pi v4)
-- Gaius Ringer (octaver/ring-modulator, based on the DA Green Ringer)
-- Janus Drive (a mashup of the MXR Dist+ and DOD 250 Overdrive w/ switchable diodes)
-- Phrike Tremolo (based on the EA Tremolo)
-- Siren Chorus (PT2399 chorus based on the MBP Glam)
+- Cerberus (3-frequency range booster)
+- Cyclops (muff-like fuzz)
+- Gaius (octaver/ring-modulator)
+- Janus (overdrive/distortion)
+- Phrike (tremolo)
+- Siren (PT2399 chorus)
 
 1590B Pedals (medium enclosure)
 ------------------------
 
-These are mostly classic effects with some versaility mods I'd like to have (but haven't seen anywhere else yet).
+These are mostly classic effects with some versatility mods I'd like to have (but haven't seen anywhere else yet).
 
-- Chimera Chorus (based on the Zombie Chorus with vibe mod)
-- Gemini Phaser (a switchable MXR Phase 45/90 mashup)
+- Chimera (chorus/vibrato)
+- Gemini (phaser)
