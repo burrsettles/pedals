@@ -76,8 +76,8 @@
 <wire x1="0" y1="33.02" x2="0" y2="0" width="0" layer="20"/>
 <text x="22.86" y="1.27" size="0.8128" layer="25" font="vector">burr settles</text>
 <text x="26.67" y="14.605" size="0.8128" layer="25" font="vector">(c)2016</text>
-<text x="1.905" y="1.27" size="0.762" layer="25" font="vector">OVERDRIVE/DIST</text>
-<text x="1.905" y="3.175" size="2.0828" layer="25" font="vector">JANUS</text>
+<text x="1.27" y="1.27" size="0.8636" layer="25" font="vector">OD+DISTORTION</text>
+<text x="1.27" y="2.54" size="2.2352" layer="25" font="vector">JANUS</text>
 </plain>
 <libraries>
 <library name="capacitors-elec">

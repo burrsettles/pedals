@@ -2712,7 +2712,7 @@ Marquardt</description>
 <sheet>
 <plain>
 <text x="76.2" y="78.74" size="6.4516" layer="97">JANUS</text>
-<text x="76.2" y="66.04" size="1.9304" layer="97">OVERDRIVE / DISTORTION
+<text x="76.2" y="66.04" size="1.9304" layer="97">OVERDRIVE + DISTORTION
 mashup of the dan armstrong blue clipper,
 mxr dist+, dod 250, and mxr microamp
 (c)2016 burr settles</text>
@@ -2726,8 +2726,8 @@ mxr dist+, dod 250, and mxr microamp
 <instance part="R4" gate="G$1" x="43.18" y="27.94"/>
 <instance part="IC1" gate="A" x="71.12" y="35.56"/>
 <instance part="R7" gate="G$1" x="76.2" y="17.78"/>
-<instance part="C6" gate="1" x="86.36" y="35.56"/>
-<instance part="R8" gate="G$1" x="99.06" y="35.56"/>
+<instance part="C6" gate="1" x="88.9" y="35.56"/>
+<instance part="R8" gate="G$1" x="101.6" y="35.56"/>
 <instance part="D2" gate="G$1" x="99.06" y="15.24" rot="R90"/>
 <instance part="D3" gate="G$1" x="104.14" y="12.7" rot="R270"/>
 <instance part="C3" gate="G$1" x="43.18" y="38.1"/>
@@ -2783,7 +2783,7 @@ mxr dist+, dod 250, and mxr microamp
 <pinref part="C6" gate="1" pin="+"/>
 <wire x1="78.74" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="35.56" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
 <junction x="81.28" y="35.56"/>
 <wire x1="81.28" y1="17.78" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -2792,7 +2792,7 @@ mxr dist+, dod 250, and mxr microamp
 <segment>
 <pinref part="C6" gate="1" pin="-"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLIP" class="0">
@@ -2800,7 +2800,7 @@ mxr dist+, dod 250, and mxr microamp
 <wire x1="134.62" y1="35.56" x2="134.62" y2="31.75" width="0.1524" layer="91"/>
 <pinref part="VOLUME" gate="G$1" pin="3"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="CLIP" gate="1" pin="P"/>
 <wire x1="109.22" y1="35.56" x2="134.62" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="33.02" x2="109.22" y2="35.56" width="0.1524" layer="91"/>

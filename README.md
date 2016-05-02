@@ -17,8 +17,8 @@ After building a [two-stage phaser](https://slackprop.wordpress.com/2016/01/20/t
 
 - Cerberus (3-frequency range booster)
 - Cyclops (muff-like fuzz)
-- Gaius (octaver/ring-modulator)
-- Janus (overdrive/distortion)
+- Gaius (octaver / ring modulator)
+- Janus (overdrive+distortion)
 - Phrike (tremolo)
 - Siren (PT2399 chorus)
 
