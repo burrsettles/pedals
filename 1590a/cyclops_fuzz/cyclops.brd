@@ -358,7 +358,7 @@ spacing: 2 holes
 <library name="logos">
 <packages>
 <package name="RT0150">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="0.600328125" y="1.43865625"/>
 <vertex x="0.8081" y="1.43865625"/>
 <vertex x="1.020953125" y="1.414271875"/>

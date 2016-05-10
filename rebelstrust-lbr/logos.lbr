@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <library>
 <packages>
 <package name="RT1000">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="4.0045625" y="9.589896875"/>
 <vertex x="5.38911875" y="9.589896875"/>
 <vertex x="6.808725" y="9.4281"/>
@@ -168,7 +168,7 @@
 </polygon>
 </package>
 <package name="RT0500">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="2.00228125" y="4.7950125"/>
 <vertex x="2.69443125" y="4.7950125"/>
 <vertex x="3.4043625" y="4.7139875"/>
@@ -278,7 +278,7 @@
 </polygon>
 </package>
 <package name="RT0250">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="1.0008875" y="2.397378125"/>
 <vertex x="1.3470875" y="2.397378125"/>
 <vertex x="1.701928125" y="2.35699375"/>
@@ -388,7 +388,7 @@
 </polygon>
 </package>
 <package name="RT0100">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="0.400178125" y="0.958340625"/>
 <vertex x="0.53860625" y="0.958340625"/>
 <vertex x="0.68059375" y="0.9420875"/>
@@ -498,7 +498,7 @@
 </polygon>
 </package>
 <package name="RT0150">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="0.600328125" y="1.43865625"/>
 <vertex x="0.8081" y="1.43865625"/>
 <vertex x="1.020953125" y="1.414271875"/>
