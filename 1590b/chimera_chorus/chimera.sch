@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3148,7 +3148,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 </net>
 <net name="IN" class="0">
 <segment>
-<wire x1="-12.7" y1="78.74" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="78.74" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="78.74" x2="1.27" y2="78.74" width="0.1524" layer="91"/>
@@ -3157,19 +3157,19 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="IN" gate="G$1" pin="P$1"/>
 <junction x="-10.16" y="78.74"/>
-<label x="-12.7" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-17.78" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT" class="0">
 <segment>
 <pinref part="C10" gate="G$1" pin="-"/>
-<wire x1="185.42" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="78.74" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 <junction x="182.88" y="81.28"/>
 <pinref part="OUT" gate="G$1" pin="P$1"/>
-<label x="185.42" y="81.28" size="1.778" layer="95" xref="yes"/>
+<label x="190.5" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VC" class="0">

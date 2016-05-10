@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2775,12 +2775,12 @@ Marquardt</description>
 <plain>
 </plain>
 <instances>
-<instance part="R3" gate="G$1" x="55.88" y="86.36"/>
-<instance part="C4" gate="G$1" x="68.58" y="86.36"/>
-<instance part="IC2" gate="_A" x="86.36" y="83.82"/>
+<instance part="R3" gate="G$1" x="53.34" y="86.36"/>
+<instance part="C4" gate="G$1" x="66.04" y="86.36"/>
+<instance part="IC2" gate="_A" x="83.82" y="83.82"/>
 <instance part="IC2" gate="_B" x="208.28" y="116.84" rot="R180"/>
 <instance part="IC2" gate="_PWR" x="55.88" y="127" rot="R180"/>
-<instance part="R7" gate="G$1" x="76.2" y="96.52" rot="R90"/>
+<instance part="R7" gate="G$1" x="73.66" y="96.52" rot="R90"/>
 <instance part="R10" gate="G$1" x="104.14" y="93.98"/>
 <instance part="MIX" gate="G$1" x="111.76" y="83.82" rot="MR180"/>
 <instance part="C8" gate="G$1" x="123.19" y="83.82"/>
@@ -2846,13 +2846,13 @@ Marquardt</description>
 <instance part="BIAS" gate="G$1" x="96.52" y="127"/>
 <instance part="GND3" gate="GND" x="38.1" y="116.84"/>
 <instance part="R31" gate="G$1" x="233.68" y="106.68" rot="R90"/>
-<instance part="R1" gate="G$1" x="45.72" y="78.74" rot="R90"/>
-<instance part="GND1" gate="GND" x="45.72" y="71.12"/>
+<instance part="R1" gate="G$1" x="43.18" y="78.74" rot="R90"/>
+<instance part="GND1" gate="GND" x="43.18" y="71.12"/>
 <instance part="MODE" gate="1" x="130.81" y="60.96" rot="R270"/>
 <instance part="DEPTH" gate="G$1" x="111.76" y="127" rot="MR90"/>
 <instance part="9V" gate="DC" x="17.78" y="132.08"/>
 <instance part="GND2" gate="GND" x="22.86" y="127"/>
-<instance part="IN" gate="G$1" x="38.1" y="86.36"/>
+<instance part="IN" gate="G$1" x="35.56" y="86.36"/>
 <instance part="OUT" gate="G$1" x="163.83" y="83.82"/>
 <instance part="PAD3" gate="G$1" x="134.62" y="127"/>
 <instance part="GND" gate="G$1" x="48.26" y="118.11" rot="R180"/>
@@ -2863,7 +2863,7 @@ Marquardt</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="86.36" x2="64.77" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="86.36" x2="62.23" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -2871,17 +2871,17 @@ Marquardt</description>
 <segment>
 <pinref part="IC2" gate="_A" pin="+IN"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="72.39" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="91.44" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
-<junction x="76.2" y="86.36"/>
+<wire x1="69.85" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="91.44" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
+<junction x="73.66" y="86.36"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="IC2" gate="_A" pin="OUT"/>
-<wire x1="93.98" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="83.82" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
@@ -2892,14 +2892,14 @@ Marquardt</description>
 <wire x1="55.88" y1="35.56" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="25.4" x2="59.69" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="73.66" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 <junction x="55.88" y="35.56"/>
 <pinref part="IC2" gate="_A" pin="-IN"/>
-<wire x1="78.74" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="81.28" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
-<junction x="76.2" y="73.66"/>
+<wire x1="76.2" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="81.28" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<junction x="73.66" y="73.66"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3393,15 +3393,15 @@ Marquardt</description>
 <net name="IN" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="83.82" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
-<junction x="45.72" y="86.36"/>
-<label x="35.56" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="35.56" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="83.82" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<junction x="43.18" y="86.36"/>
+<label x="27.94" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="IN" gate="G$1" pin="P$1"/>
-<junction x="38.1" y="86.36"/>
+<junction x="35.56" y="86.36"/>
 </segment>
 </net>
 <net name="OUT" class="0">
@@ -3409,11 +3409,11 @@ Marquardt</description>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="153.67" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="83.82" x2="163.83" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="163.83" y1="83.82" x2="166.37" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="163.83" y1="83.82" x2="171.45" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="81.28" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
 <junction x="154.94" y="83.82"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<label x="166.37" y="83.82" size="1.778" layer="95" xref="yes"/>
+<label x="171.45" y="83.82" size="1.778" layer="95" xref="yes"/>
 <pinref part="OUT" gate="G$1" pin="P$1"/>
 <junction x="163.83" y="83.82"/>
 </segment>
@@ -3474,8 +3474,8 @@ Marquardt</description>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="101.6" x2="76.2" y2="102.87" width="0.1524" layer="91"/>
-<label x="76.2" y="102.87" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="73.66" y1="101.6" x2="73.66" y2="102.87" width="0.1524" layer="91"/>
+<label x="73.66" y="102.87" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
