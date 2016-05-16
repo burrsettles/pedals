@@ -15,17 +15,19 @@ I'm naming the pedals after various mythological characters.
 
 After building a [two-stage phaser](https://slackprop.wordpress.com/2016/01/20/transistor-clustering-for-diy-guitar-effects/) in a tiny enclosure like this, I fell in love with the sleek one-knob aesthetic and simplicity. So I decided to try a line of compact pedals restricted to a single knob control (and maybe a toggle switch).
 
-- Cerberus (3-frequency range booster)
-- Cyclops (muff-like fuzz)
-- Gaius (octaver / ring modulator)
-- Janus (overdrive+distortion)
-- Phrike (tremolo)
-- Siren (PT2399 chorus)
+- CERBERUS (frequency range booster)
+- CYCLOPS (muff-like fuzz)
+- GAIUS (octaver/ring modulator)
+- JANUS (overdrive+distortion)
+- PHRIKE (tremolo)
+- SIREN (PT2399 chorus)
+- SQUONK (envelope filter/autowah)
 
 1590B Pedals (medium enclosure)
 ------------------------
 
 These are mostly classic effects with some versatility mods I'd like to have (but haven't seen anywhere else yet).
 
-- Chimera (chorus/vibrato)
-- Gemini (phaser)
+- BACCHUS (vintage fuzz)
+- CHIMERA (chorus/vibrato)
+- GEMINI (phaser)
