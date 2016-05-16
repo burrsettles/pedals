@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1989,7 +1989,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <part name="R4" library="resistors" deviceset="R_" device=".3B" value="220R"/>
 <part name="R5" library="resistors" deviceset="R_" device=".3B" value="1k"/>
 <part name="R3" library="resistors" deviceset="R_" device=".3B" value="100k"/>
-<part name="FUZZ" library="potentiometers" deviceset="POTS" device="9MM_MOUNTED" value="1kC"/>
+<part name="FUZZ" library="potentiometers" deviceset="POTS" device="9MM_MOUNTED" value="1kB"/>
 <part name="VOL" library="potentiometers" deviceset="POTS" device="9MM_MOUNTED" value="500kA"/>
 <part name="CONT" library="potentiometers" deviceset="POTS" device="9MM_MOUNTED" value="1kB"/>
 <part name="C5" library="capacitors-film" deviceset="CER/FILM" device="2" value="100n"/>
