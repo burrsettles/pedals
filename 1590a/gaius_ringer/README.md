@@ -20,11 +20,6 @@ When playing a single note, it doubles the tone one octave up; but if playing tw
 * Other diodes may work for D2-D3, so long as they are a closely matched pair.
 
 
-### schematic
-
-![schematic](schematic.png "GAIUS")
-
-
 ### bill of materials
 
 Qty | Parts | Value
@@ -48,6 +43,12 @@ Qty | Parts | Value
 1 | NULL pot | 100kB (or 500kC)
 
 
-###
+### schematic
+
+![schematic](schematic.png "GAIUS")
+
+### layout
+
+1.3" x 1.28" (1590a)
 
 ![layout](layout.png "GAIUS")
