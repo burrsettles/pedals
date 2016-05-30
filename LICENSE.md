@@ -1,9 +1,9 @@
+# LICENSE
+
 Copyright © Burr Settles.
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-![license](http://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0")
-
-(This is a human-readable summary of — and not a substitute for — the full license.)
+![license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC BY-NC-SA 4.0")
 
 ### you are free to:
 
@@ -22,3 +22,5 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 * You do not have to comply with the license for elements of the material in the public domain.
 * No warranties are expressed or implied in any way.
 * These projects are intended for personal use and not commercial builds. You may of course sell or trade one-offs if for whatever reason you decide not to keep them. If you are interested in selling more than one derivative of any of these works, please contact me.
+
+(This is a human-readable summary of — and not a substitute for — the full license.)
