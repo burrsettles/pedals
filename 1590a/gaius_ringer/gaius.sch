@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2217,7 +2217,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <part name="R7" library="resistors" deviceset="R_" device=".3B" value="10k"/>
 <part name="GND5" library="supply pins" deviceset="GND" device=""/>
 <part name="C3" library="capacitors-film" deviceset="CER/FILM" device="2" value="47n"/>
-<part name="NULL" library="potentiometers" deviceset="POTS" device="TRIM" value="25kB"/>
+<part name="NULL" library="potentiometers" deviceset="POTS" device="TRIM" value="100kB"/>
 <part name="C4" library="capacitors-film" deviceset="CER/FILM" device="2" value="47n"/>
 <part name="R9" library="resistors" deviceset="R_" device=".3B" value="68k"/>
 <part name="R8" library="resistors" deviceset="R_" device=".3B" value="68k"/>
@@ -2265,7 +2265,7 @@ based on the dan armstrong green ringer
 <instance part="R7" gate="G$1" x="60.96" y="38.1" rot="R90"/>
 <instance part="GND5" gate="GND" x="60.96" y="30.48"/>
 <instance part="C3" gate="G$1" x="71.12" y="45.72"/>
-<instance part="NULL" gate="G$1" x="78.74" y="81.28" rot="MR0"/>
+<instance part="NULL" gate="G$1" x="78.74" y="81.28" rot="R180"/>
 <instance part="C4" gate="G$1" x="78.74" y="71.12" rot="R90"/>
 <instance part="R9" gate="G$1" x="78.74" y="50.8" rot="R90"/>
 <instance part="R8" gate="G$1" x="78.74" y="60.96" rot="R90"/>
@@ -2280,7 +2280,7 @@ based on the dan armstrong green ringer
 <instance part="GND6" gate="GND" x="96.52" y="30.48"/>
 <instance part="R13" gate="G$1" x="124.46" y="38.1" rot="R90"/>
 <instance part="GND8" gate="GND" x="124.46" y="30.48"/>
-<instance part="D1" gate="G$1" x="20.32" y="91.44"/>
+<instance part="D1" gate="G$1" x="21.59" y="91.44"/>
 <instance part="C2" gate="1" x="30.48" y="81.28" rot="MR270"/>
 <instance part="GND2" gate="GND" x="30.48" y="71.12"/>
 <instance part="GND1" gate="GND" x="20.32" y="30.48"/>
@@ -2386,12 +2386,6 @@ based on the dan armstrong green ringer
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="76.2" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
 <junction x="96.52" y="55.88"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="NULL" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -2504,15 +2498,21 @@ based on the dan armstrong green ringer
 <wire x1="96.52" y1="86.36" x2="96.52" y2="91.44" width="0.1524" layer="91"/>
 <junction x="96.52" y="91.44"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="22.86" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 <junction x="30.48" y="91.44"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="15.24" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="9V" gate="DC" pin="TIP"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="NULL" gate="G$1" pin="3"/>
 </segment>
 </net>
 </nets>

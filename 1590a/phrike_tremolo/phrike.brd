@@ -717,7 +717,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="Q4" library="transistors" package="TO92-" value="2N5088" x="24.13" y="22.225" rot="R90"/>
 <element name="R1" library="resistors" package="R0207/3" value="1M" x="2.54" y="5.715" rot="R90"/>
 <element name="R10" library="resistors" package="R0207/3" value="100k" x="6.35" y="30.48" rot="R180"/>
-<element name="R11" library="resistors" package="R0207/3" value="560k" x="6.35" y="33.02"/>
+<element name="R11" library="resistors" package="R0207/3" value="1M" x="6.35" y="33.02"/>
 <element name="R12" library="resistors" package="R0207/3" value="10k" x="14.605" y="20.32"/>
 <element name="R13" library="resistors" package="R0207/3" value="2M2" x="14.605" y="27.94" rot="R180"/>
 <element name="R14" library="resistors" package="R0207/3" value="15k" x="26.67" y="33.655"/>

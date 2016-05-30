@@ -632,7 +632,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="D2" library="diodes" package="DO35-2" value="1N914" x="5.08" y="20.32" rot="R180"/>
 <element name="D3" library="diodes" package="DO35-2" value="1N914" x="5.08" y="17.78" rot="R180"/>
 <element name="D1" library="diodes" package="DO41-3" value="1N5817" x="14.605" y="29.845"/>
-<element name="NULL" library="potentiometers" package="2262_TRIM" value="25kB" x="5.08" y="28.575" rot="R180"/>
+<element name="NULL" library="potentiometers" package="2262_TRIM" value="100kB" x="5.08" y="28.575" rot="R180"/>
 <element name="Q1" library="transistors" package="TO92-" value="2N5088" x="19.685" y="15.24" rot="R90"/>
 <element name="Q2" library="transistors" package="TO92-" value="2N3906" x="17.78" y="22.86" rot="R270"/>
 <element name="Q3" library="transistors" package="TO92-" value="2N5088" x="11.43" y="22.86" rot="R90"/>
@@ -713,13 +713,13 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="NULL" pad="2"/>
 <contactref element="R6" pad="1"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="5.08" y1="26.035" x2="8.89" y2="26.035" width="0.254" layer="16"/>
 <wire x1="8.89" y1="26.035" x2="10.4775" y2="27.6225" width="0.254" layer="16"/>
 <wire x1="10.4775" y1="27.6225" x2="15.5575" y2="27.6225" width="0.254" layer="16"/>
 <wire x1="15.5575" y1="27.6225" x2="17.78" y2="25.4" width="0.254" layer="16"/>
 <wire x1="17.78" y1="25.4" x2="19.3675" y2="25.4" width="0.254" layer="16"/>
 <wire x1="19.3675" y1="25.4" x2="21.9075" y2="22.86" width="0.254" layer="16"/>
 <wire x1="21.9075" y1="22.86" x2="22.86" y2="22.86" width="0.254" layer="16"/>
+<wire x1="5.08" y1="26.035" x2="8.89" y2="26.035" width="0.254" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="R9" pad="2"/>
@@ -730,11 +730,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.97" y1="16.51" x2="10.16" y2="12.7" width="0.254" layer="1"/>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="10.16" width="0.254" layer="1"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="7.62" width="0.254" layer="1"/>
-</signal>
-<signal name="N$7">
-<contactref element="C4" pad="1"/>
-<contactref element="NULL" pad="1"/>
-<wire x1="7.62" y1="28.575" x2="7.62" y2="22.86" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R7" pad="2"/>
@@ -825,6 +820,13 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D1" pad="A"/>
 <contactref element="9V" pad="T"/>
 <wire x1="27.305" y1="29.845" x2="18.415" y2="29.845" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="C4" pad="1"/>
+<contactref element="NULL" pad="3"/>
+<wire x1="7.62" y1="22.86" x2="5.715" y2="22.86" width="0.254" layer="1"/>
+<wire x1="5.715" y1="22.86" x2="2.54" y2="26.035" width="0.254" layer="1"/>
+<wire x1="2.54" y1="26.035" x2="2.54" y2="28.575" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>

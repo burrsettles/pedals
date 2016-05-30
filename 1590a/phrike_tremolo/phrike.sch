@@ -2463,7 +2463,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <part name="GND10" library="supply pins" deviceset="GND" device=""/>
 <part name="GND11" library="supply pins" deviceset="GND" device=""/>
 <part name="GND12" library="supply pins" deviceset="GND" device=""/>
-<part name="R11" library="resistors" deviceset="R_" device=".3B" value="560k"/>
+<part name="R11" library="resistors" deviceset="R_" device=".3B" value="1M"/>
 <part name="GND9" library="supply pins" deviceset="GND" device=""/>
 <part name="GND1" library="supply pins" deviceset="GND" device=""/>
 <part name="GND7" library="supply pins" deviceset="GND" device=""/>
