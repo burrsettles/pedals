@@ -8,19 +8,20 @@ CYCLOPS
 
 ### overview
 
-CYCLOPS is a back-to-basics, no-holds-barred wall-of-sound machine in a tiny little box. It is based on the [runoffgroove 22/7](http://runoffgroove.com/22-7.html), which in turn is a CMOS implementation of the [EHX Big Muff Pi](https://en.wikipedia.org/wiki/Big_Muff). However, it is modified to have only a VOLUME control: the tone stack has been removed (no scooped mids!), and the gain/sustain is meant to be an internal trimmer to "set and forget" to taste.
+CYCLOPS is an in-your-face, no-holds-barred, wall-of-sound machine in a tiny little box. It is based on the [runoffgroove 22/7](http://runoffgroove.com/22-7.html), which in turn is a CMOS implementation of the [EHX Big Muff Pi](https://en.wikipedia.org/wiki/Big_Muff). However, CYCLOPS has been modified to have nothing but a VOLUME control: the tone stack has been removed (no more scooped mids!), and the gain/sustain is designed to be an internal trimmer; just to "set it and forget it" to taste.
 
 
 ### notes
 
 * The clipping diodes (D1-D4) can be anything you want, though 1N914 is common in BMP clones. In my build, I ended up using 3mm red LEDs for D1-D2, and 1N4148s for D3-D4.
-* The GAIN knob is layed out as a trimmer, but you can wire it to an offboard pot if you like.
+* The GAIN knob is layed out as a trimmer, but you can wire it to an offboard pot if you prefer.
 * IC1 pins 2, 4, 13, and 16 are not connected.
 
 
 ### bill of materials
 
 Qty | Parts | Value
+--- | ----- | -----
 1 | C1 | 47n film
 1 | C2 | 100u electrolytic
 1 | C3 | 220p ceramic
