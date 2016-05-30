@@ -21,7 +21,7 @@ Since these are all essentially the same circuit with a few different values, th
   1. jumper pin 2 to pin 1 and use D4-D5 (larger, 4-spaced diodes like germanium or Schottky), or
   2. jumper pin 2 to pin 3 and use D2-D3 (smaller, 3-spaced diodes like 1N914, 1N4148, or LEDs).
 * If you want to omit the DRIVE control (e.g., a Blue Clipper clone), jumper pin 2 to 3. This is fixed at maximum gain.
-* If you want to build a dirty boost with one control (e.g., a MicroAmp clone), jumper pin 2 to 3 for the VOLUME pot, and use only the DRIVE control. (You may also want to add a 10k resistor from pin 1 to either 2 or 3 to be faitful to that circuit).
+* If you want to build a dirty boost with one control (e.g., a MicroAmp clone), jumper pin 2 to 3 for the VOLUME pot, and use only the DRIVE control. (You may also want to add a 10k resistor from pin 1 to either 2 or 3 to be faithful to that circuit).
 
 
 ### bill of materials
@@ -39,20 +39,20 @@ C4 | **10u** | - | 1u | 10u | 1u
 C5 | **47n** | 4u7 | 47n | 47n | 4u7
 C6 | **4u7** | 4u7 | 1u | 4u7 | 15u
 D1 | **1N5817** | - | - | - | -
-D2-D3 | **your choice** | 1N914 | - | 1N4148 (Si) | -
-D4-D5 | **your choice** | 1N914 | 1N270 (Ge) | - | -
+D2-D3 | **your choice** | 1N914 (Si) | - | 1N4148 (Si) | -
+D4-D5 | **your choice** | - | 1N270 (Ge) | - | -
 IC1 | **LM741** | LM741 | LM741 | LM741 | LM741
 R1 | **1M** | - | - | - | -
 R2 | **22k** | 200k | 1M | 22k | 100k
 R3 | **22k** | 240k | 1M | 22k | 100k
 R4 | **4k7** | 150R | 4k7 | 4k7 | 2k7
-R5 | **10k** | - | 10k | 10k | 10k
-R6 | **470k** | - | 1M | 470k | 10M
+R5 | **10k** | jumper | 10k | 10k | 10k
+R6 | **470k** | jumper | 1M | 470k | 10M
 R7 | **1M** | 150k | 1M | 1M | 56k
 R8 | **10k** | 18k2 | 10k | 10k | 470R
-CLIP | **SPDT** toggle | - | - | - | -
-DRIVE | **500kC** | - | 500kC | 500kC | 500kC
-VOLUME | **100kA** | 10kA | 50kA | 100kA | -
+CLIP | **SPDT** toggle | jumper 2-3 | jumper 2-1 | jumper 2-3 | -
+DRIVE | **500kC** | jumper 2-3 | 500kC | 500kC | 500kC
+VOLUME | **100kA** | 10kA | 50kA | 100kA | jumper 2-3
 
 
 ### schematic
