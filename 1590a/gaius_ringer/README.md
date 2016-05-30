@@ -28,18 +28,18 @@ Qty | Parts | Value
 1 | C2 | 100u electrolytic
 1 | C5 | 100n film
 1 | D1 | 1N5817
-2 | D2, D3 | 1N914 (or other matched pair)
+2 | D2, D3 | 1N914
 2 | Q1, Q3 | 2N5088 (or 2N5089)
-1 | Q2 | 2N3906 (low-gain PNP)
+1 | Q2 | 2N3906 (or other PNP)
 1 | R1 | 1M
-2 | R10, R11 | 22k
-1 | R13 | 47k
 1 | R2 | 470k
 1 | R3 | 160k
 1 | R4 | 18k
 1 | R5 | 6k2
 3 | R6, R7, R12 | 10k
 2 | R8, R9 | 68k
+2 | R10, R11 | 22k
+1 | R13 | 47k
 1 | NULL pot | 100kB (or 500kC)
 
 
