@@ -1,6 +1,6 @@
 # JANUS
 
-## OVERDRIVE + DISTORTION
+**OVERDRIVE + DISTORTION**
 
 © 2016 Burr Settles ([LICENSE](../../LICENSE.md))
 

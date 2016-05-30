@@ -1,6 +1,6 @@
 # GAIUS
 
-## OCTAVER / RING MODULATOR
+**OCTAVER / RING MODULATOR**
 
 © 2016 Burr Settles ([LICENSE](../../LICENSE.md))
 

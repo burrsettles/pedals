@@ -1,6 +1,6 @@
 # CYCLOPS
 
-## MUFFLIKE FUZZ
+**MUFFLIKE FUZZ**
 
 © 2016 Burr Settles ([LICENSE](../../LICENSE.md))
 
