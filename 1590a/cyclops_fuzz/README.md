@@ -1,9 +1,8 @@
-CYCLOPS
-=======
+# CYCLOPS
 
-**MUFFLIKE FUZZ**
+## MUFFLIKE FUZZ
 
-© 2016 burr settles
+© 2016 Burr Settles ([LICENSE](../../LICENSE.md))
 
 
 ### overview
