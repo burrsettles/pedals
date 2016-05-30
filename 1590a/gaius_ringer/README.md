@@ -15,9 +15,9 @@ When playing a single note, it doubles the tone one octave up; but if playing tw
 
 ### notes
 
-* The NULL pot is layed out as a trimmer for flexibility: may want to mount a control off-board, or just use a trimmer to "set it and forget it." A 500kC pot for a wider range in the effect. Personally I think the listed value provides enough range. If you want to omit this control altogether, simply jumper pins 2 and 3.
-* For the clearest octave effect, match diodes D2-D3 as closely as possible for forward voltage, as well as the resistors R6-R7 (10k) and R10-R11 (22k). Although if you use 1% metal film they're probably going to be extremely close anyway.
-* Other diodes may work for D2-D3, so long as they are a closely matched pair.
+* The NULL pot is layed out as a trimmer for flexibility: you can also to wire up an off-board pot, or just use a trimmer to "set it and forget it." You could also use a 500kC pot for a wider intensity range, but personally I think the 100kB is enough.
+* If you want to omit the NULL control altogether, simply jumper pins 2 and 3.
+* For the clearest octave effect, match diodes D2-D3 as closely as possible for forward voltage. You should also try to match resistors R6-R7 (10k) and R10-R11 (22k), although if you use 1% metal film they're probably close enough anyway.
 
 
 ### bill of materials
