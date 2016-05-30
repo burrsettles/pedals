@@ -27,4 +27,8 @@ Subfolders contain [EAGLE](http://www.cadsoftusa.com/) schematic and two-sided c
 
 I'm naming the pedals after various mythological characters.
 
+### wiring diagram
+
+![wiring](wiring.svg "wiring diagram")
+
 © 2016 Burr Settles ([LICENSE](LICENSE.md))
