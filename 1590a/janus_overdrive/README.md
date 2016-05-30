@@ -27,7 +27,7 @@ Since these are all essentially the same circuit with a few different component 
 
 I recommend building with the JANUS values, as these are the only ones I have tested.
 
-Since I edited the circuit to my own liking and squeezed it all into a 1590a-sized board, I components for some of the source circuits are missing, and you can't get a 100% faithful clone of all the circuits JANUS is based on. However, if you prefer to try a straight-up clone of one of the source effects, you can try the alternate component values below (column headings are links to source documentation):
+Since I edited the circuit to my own liking and squeezed it all into a 1590a-sized board, components for some of the source circuits are missing, and you can't get a 100% faithful clone of _every_ circuit JANUS is based on. However, if you want to try a straight-up clone of one of the source effects, you can try the alternate component values below (column headings are links to source documentation):
 
 Part | **JANUS** | [Blue Clipper](http://tonepad.com/project.asp?id=49) | [Distortion+](http://tonepad.com/project.asp?id=2) | [DOD 250](https://sites.google.com/site/snmavronis/NeoClassicFX/741overdrive/research) | [MicroAmp](http://electrosmash.com/mxr-microamp)
 --- | --- | --- | --- | --- | ---
