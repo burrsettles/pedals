@@ -29,6 +29,6 @@ I'm naming the pedals after various mythological characters.
 
 ### wiring diagram
 
-![wiring](wiring.svg "wiring diagram")
+![wiring](wiring.png "wiring diagram")
 
 © 2016 Burr Settles ([LICENSE](LICENSE.md))
