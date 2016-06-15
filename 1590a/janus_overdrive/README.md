@@ -7,20 +7,20 @@
 
 ### overview
 
-JANUS is a versatile and open-ended dirt box; a mash-up of several classic 1970s distortion circuits. The story begins with the [Dan Armstrong Blue Clipper](http://www.effectsdatabase.com/model/danarmstrong/blueclipper) (1972?) which was supposedly one of the first op-amp-based "smooth fuzz" effects. According to legend, someone from MXR picked one of these up at a NAMM convention, which was supposedly modified to create the [MXR Distortion+](https://en.wikipedia.org/wiki/MXR_Distortion_%2B) (1973), which was later was modded for the [DOD 250 Overdrive/Preamp](http://www.effectsdatabase.com/model/dod/first/250) (1976), cloned by [Ross](http://www.effectsdatabase.com/model/ross/r50) (1979), and even adapted into the [MXR MicroAmp](http://www.jimdunlop.com/product/m133-micro-amp).
+JANUS is a versatile and open-ended dirt box; a mash-up of several classic 1970s distortion circuits. The story begins with the [Dan Armstrong Blue Clipper](http://www.effectsdatabase.com/model/danarmstrong/blueclipper) (1972?) which was supposedly one of the first op-amp-based "smooth fuzz" effects. According to legend, someone from MXR picked one up at a NAMM convention and supposedly modified it to create the [MXR Distortion+](https://en.wikipedia.org/wiki/MXR_Distortion_%2B) (1973), which was later was modded into the [DOD 250 Overdrive/Preamp](http://www.effectsdatabase.com/model/dod/first/250) (1976), cloned as the [Ross R-50](http://www.effectsdatabase.com/model/ross/r50) (1979), and even adapted into the [MXR MicroAmp](http://www.jimdunlop.com/product/m133-micro-amp).
 
-Since these are all essentially the same circuit with a few different component values, the same board will let you build pretty much any of them. JANUS uses a combination of values I settled on through experimentation, and adds a CLIP switch to toggle between different clipping diodes (or no diodes at all). This makes JANUS a multi-faced, multi-purpose vintage distortion box packed into in a small package.
+Since these are basically the same circuit with different component values, the same board lets you build pretty much any of them. JANUS uses a combination of values I settled on through experimentation, and adds a CLIP switch to toggle between different clipping diodes (or no diodes at all). This makes JANUS a multi-faced, multi-purpose vintage distortion box packed into in a small package.
 
 
 ### notes
 
-* The clipping diodes (D1-D4) are your choice. Feel free to experiment! In my build, I used a pair of 1N914s for D2-D3 (symmetrical), and a 3mm red LED coupled with a NOS germanium for D4-D5 (asymmetrical).
-* If you use an on/off/on SPDT for the CLIP switch, the "off" position adds a third "dirty boost" option. (The op-amp can be overdriven without the help of clipping diodes... although be prepared as _it is a lot louder_!) It can even be a clean boost with the volume turned up but eh gain turned down.
-* Alternatively, if you don't want a CLIP switch, you can either:
+* The clipping diodes (D1-D4) are your choice. Experiment! In my build, I used a pair of 1N914s for D2-D3 (symmetrical), and a 3mm red LED coupled with a NOS germanium for D4-D5 (asymmetrical).
+* If you use an on/off/on SPDT for the CLIP switch, the middle "off" position adds a third boost option. With the gain turned down and the volume up, it's a pretty transparent clean boost, but the the op-amp can be overdriven without the help of clipping diodes as you turn up the gain. But be prepared: _it is a lot louder_!
+* If you don't want the CLIP switch options, you can either:
   1. jumper pin 2 to pin 1 and use D4-D5 (larger, 4-spaced diodes like germanium or Schottky), or
   2. jumper pin 2 to pin 3 and use D2-D3 (smaller, 3-spaced diodes like 1N914, 1N4148, or LEDs).
 * If you want to omit the DRIVE control (as with the Blue Clipper), jumper pin 2 to 3. This is fixed at maximum gain.
-* If you want to build a dirty boost with one control (as with the MicroAmp), jumper pin 2 to 3 for the VOLUME pot, and use only the DRIVE control. (You may also want to add a 10k resistor from pin 1 to either 2 or 3 to be more faithful to that circuit). I haven't verified this, though.
+* If you want to build a booster with one control (as with the MicroAmp), jumper pin 2 to 3 for the VOLUME pot, and use only the DRIVE control. (You may also want to add a 10k resistor from pin 1 to either 2 or 3 to be more faithful to that circuit). Be warned: I haven't verified this yet.
 
 
 ### bill of materials
