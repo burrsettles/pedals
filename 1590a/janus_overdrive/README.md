@@ -7,9 +7,9 @@
 
 ### overview
 
-JANUS is a versatile and open-ended dirt box; a mash-up of several classic 1970s distortion circuits. The story begins with the [Dan Armstrong Blue Clipper](http://www.effectsdatabase.com/model/danarmstrong/blueclipper) (1972?) which was supposedly one of the first op-amp-based "smooth fuzz" effects. According to legend, someone from MXR picked one up at a NAMM convention and supposedly modified it to create the [MXR Distortion+](https://en.wikipedia.org/wiki/MXR_Distortion_%2B) (1973), which was later was modded into the [DOD 250 Overdrive/Preamp](http://www.effectsdatabase.com/model/dod/first/250) (1976), cloned as the [Ross R-50](http://www.effectsdatabase.com/model/ross/r50) (1979), and even adapted into the [MXR MicroAmp](http://www.jimdunlop.com/product/m133-micro-amp).
+JANUS is a versatile and open-ended dirt box; a mash-up of several classic 1970s distortions. The story begins with the [Dan Armstrong Blue Clipper](http://www.effectsdatabase.com/model/danarmstrong/blueclipper) (1972?), supposedly one of the first op-amp-based "smooth fuzz" effects. According to legend, someone from MXR picked one up at a NAMM convention and it was modified to create the [MXR Distortion+](https://en.wikipedia.org/wiki/MXR_Distortion_%2B) (1973). This was later was modded into the [DOD 250 Overdrive/Preamp](http://www.effectsdatabase.com/model/dod/first/250) (1976), cloned as the [Ross R-50](http://www.effectsdatabase.com/model/ross/r50) (1979), and even adapted into the [MXR MicroAmp](http://www.jimdunlop.com/product/m133-micro-amp) preamp/booster.
 
-Since these are basically the same circuit with different component values, the same board lets you build pretty much any of them. JANUS uses a combination of values I settled on through experimentation, and adds a CLIP switch to toggle between different clipping diodes (or no diodes at all). This makes JANUS a multi-faced, multi-purpose vintage distortion box packed into in a small package.
+Since these are basically the same circuit with different component values, the same board lets you build a variant of any of them. JANUS uses a combination of values I settled on through experimentation, and adds a CLIP switch to toggle between different clipping diodes (or no diodes at all!). This makes JANUS a multi-faced, multi-purpose vintage distortion box packed into in a tiny package.
 
 
 ### notes
@@ -25,9 +25,9 @@ Since these are basically the same circuit with different component values, the 
 
 ### bill of materials
 
-I recommend building with the JANUS values, as these are the only ones I have tested.
+I recommend building with the JANUS values, as these are the only ones I have verified.
 
-Since I edited the circuit to my own liking and squeezed it all into a 1590a-sized board, components for some of the source circuits are missing, so you can't get a 100% faithful clone of _every_ circuit JANUS is based on. However, if you want to try a straight-up clone of one of the source effects, you can try the alternate component values below (column headings are links to source docs/schematics):
+Since I edited the circuit to my own liking and squeezed it all into a 1590a-sized board, components for some of the source circuits are omitted and you can't get a 100% faithful clone of _every_ circuit JANUS is based on. However, if you want to try a straight-up clone of one of the source effects, try the alternate component values below (column headings are links to source docs/schematics):
 
 Part | **JANUS** | [Blue Clipper](http://tonepad.com/project.asp?id=49) | [MXR Dist+](http://tonepad.com/project.asp?id=2) | [DOD 250](https://sites.google.com/site/snmavronis/NeoClassicFX/741overdrive/research) | [Ross](http://www.home-wrecker.com/ross_distortion_tan.png) | [MicroAmp](http://electrosmash.com/mxr-microamp)
 --- | --- | --- | --- | --- | --- | ---
@@ -66,3 +66,10 @@ Note: The Ross version supposedly used a 4558 dual op-amp. The JANUS is only lai
 1.3" x 1.3" (1590a)
 
 ![layout](layout.png "JANUS")
+
+
+### build pic
+
+![layout](janus_build_20160612.jpg "JANUS")
+
+12 June 2016

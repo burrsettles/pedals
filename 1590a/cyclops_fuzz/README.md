@@ -40,10 +40,18 @@ Qty | Parts | Value
 
 ### schematic
 
-![schematic](schematic.png "GAIUS")
+![schematic](schematic.png "CYCLOPS")
+
 
 ### layout
 
 1.3" x 1.46" (1590a)
 
-![layout](layout.png "GAIUS")
+![layout](layout.png "CYCLOPS")
+
+
+### build pic
+
+![layout](cyclops_build_20160618.jpg "CYCLOPS")
+
+18 June 2016

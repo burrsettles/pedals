@@ -46,8 +46,16 @@ Qty | Parts | Value
 
 ![schematic](schematic.png "GAIUS")
 
+
 ### layout
 
 1.3" x 1.28" (1590a)
 
 ![layout](layout.png "GAIUS")
+
+
+### build pic
+
+![layout](gaius_build_20160618.jpg "GAIUS")
+
+18 June 2016
