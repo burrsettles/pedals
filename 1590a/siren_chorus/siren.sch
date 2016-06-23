@@ -2782,8 +2782,6 @@ based on the madbeanpedals glam
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="113.03" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
-<junction x="116.84" y="124.46"/>
 </segment>
 </net>
 <net name="N$19" class="0">
