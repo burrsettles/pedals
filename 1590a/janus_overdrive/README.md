@@ -29,7 +29,7 @@ I recommend building with the JANUS values, as these are the only ones I have ve
 
 Since I edited the circuit to my own liking and squeezed it all into a 1590a-sized board, components for some of the source circuits are omitted and you can't get a 100% faithful clone of _every_ circuit JANUS is based on. However, if you want to try a straight-up clone of one of the source effects, try the alternate component values below (column headings are links to source docs/schematics):
 
-Part | **JANUS** | [Blue Clipper](http://tonepad.com/project.asp?id=49) | [MXR Dist+](http://tonepad.com/project.asp?id=2) | [DOD 250](https://sites.google.com/site/snmavronis/NeoClassicFX/741overdrive/research) | [Ross](http://www.home-wrecker.com/ross_distortion_tan.png) | [MicroAmp](http://electrosmash.com/mxr-microamp)
+Part | **JANUS** | [Blue Clipper](http://tonepad.com/project.asp?id=49) | [MXR Dist+](http://tonepad.com/project.asp?id=2) | [DOD 250](https://sites.google.com/site/snmavronis/NeoClassicFX/741overdrive/research) | [Ross](http://www.home-wrecker.com/ross_distortion_tan.png) | [MicroAmp](http://www.electrosmash.com/mxr-microamp)
 --- | --- | --- | --- | --- | --- | ---
 C1 | **2n2** | - | 1n | - | 1n | -
 C2 | **47u** | 100u | - | - | 10n | -
