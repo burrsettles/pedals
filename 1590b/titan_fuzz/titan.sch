@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3308,7 +3308,7 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <part name="D7" library="diodes" deviceset="DO35" device=".2"/>
 <part name="GND11" library="supply pins" deviceset="GND" device=""/>
 <part name="GND12" library="supply pins" deviceset="GND" device=""/>
-<part name="SW1" library="switches" deviceset="DPDT" device="PADS"/>
+<part name="CLIP" library="switches" deviceset="DPDT" device="PADS"/>
 <part name="BF1" library="logos" deviceset="BULLFINCH" device=""/>
 <part name="IN" library="supply pins" deviceset="PAD" device="SQR"/>
 <part name="OUT" library="supply pins" deviceset="PAD" device="SQR"/>
@@ -3337,13 +3337,13 @@ based on the ehx big muff pi and colorsound supa tonebender
 <instance part="SUSTAIN" gate="G$1" x="77.47" y="45.72"/>
 <instance part="R7" gate="G$1" x="77.47" y="34.29" rot="R90"/>
 <instance part="C5" gate="G$1" x="87.63" y="45.72"/>
-<instance part="R8" gate="G$1" x="96.52" y="45.72"/>
+<instance part="R8" gate="G$1" x="97.79" y="45.72"/>
 <instance part="R9" gate="G$1" x="104.14" y="35.56" rot="R90"/>
 <instance part="Q2" gate="G$1" x="116.84" y="45.72"/>
 <instance part="R12" gate="G$1" x="119.38" y="35.56" rot="R90"/>
 <instance part="R10" gate="G$1" x="111.76" y="55.88"/>
 <instance part="C8" gate="G$1" x="127" y="55.88"/>
-<instance part="R13" gate="G$1" x="135.89" y="55.88"/>
+<instance part="R13" gate="G$1" x="137.16" y="55.88"/>
 <instance part="C7" gate="G$1" x="111.76" y="68.58"/>
 <instance part="C6" gate="G$1" x="97.79" y="86.36"/>
 <instance part="R11" gate="G$1" x="119.38" y="93.98" rot="R90"/>
@@ -3370,7 +3370,7 @@ based on the ehx big muff pi and colorsound supa tonebender
 <instance part="Q4" gate="G$1" x="233.68" y="64.77"/>
 <instance part="R22" gate="G$1" x="236.22" y="93.98" rot="R90"/>
 <instance part="R23" gate="G$1" x="236.22" y="35.56" rot="R90"/>
-<instance part="C14" gate="G$1" x="245.11" y="73.66"/>
+<instance part="C14" gate="G$1" x="246.38" y="73.66"/>
 <instance part="VOLUME" gate="G$1" x="256.54" y="64.77"/>
 <instance part="J1" gate="DC" x="10.16" y="100.33"/>
 <instance part="D1" gate="G$1" x="21.59" y="102.87"/>
@@ -3396,8 +3396,8 @@ based on the ehx big muff pi and colorsound supa tonebender
 <instance part="D7" gate="G$1" x="185.42" y="31.75" rot="MR270"/>
 <instance part="GND11" gate="GND" x="175.26" y="26.67"/>
 <instance part="GND12" gate="GND" x="185.42" y="26.67"/>
-<instance part="SW1" gate="_A" x="109.22" y="83.82" rot="MR270"/>
-<instance part="SW1" gate="_B" x="182.88" y="46.99" rot="MR180"/>
+<instance part="CLIP" gate="_A" x="109.22" y="83.82" rot="MR270"/>
+<instance part="CLIP" gate="_B" x="182.88" y="46.99" rot="MR180"/>
 <instance part="BF1" gate="G$1" x="15.24" y="10.16"/>
 <instance part="IN" gate="G$1" x="21.59" y="46.99"/>
 <instance part="OUT" gate="G$1" x="264.16" y="64.77"/>
@@ -3429,6 +3429,7 @@ based on the ehx big muff pi and colorsound supa tonebender
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="55.88" x2="130.81" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IN" class="0">
@@ -3502,6 +3503,7 @@ based on the ehx big muff pi and colorsound supa tonebender
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="92.71" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -3521,10 +3523,10 @@ based on the ehx big muff pi and colorsound supa tonebender
 <wire x1="116.84" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <junction x="119.38" y="55.88"/>
 <wire x1="119.38" y1="55.88" x2="123.19" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="_A" pin="2"/>
+<pinref part="CLIP" gate="_A" pin="2"/>
 <wire x1="114.3" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
 <junction x="119.38" y="83.82"/>
-<pinref part="SW1" gate="_A" pin="3"/>
+<pinref part="CLIP" gate="_A" pin="3"/>
 <wire x1="104.14" y1="81.28" x2="104.14" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="74.93" x2="119.38" y2="74.93" width="0.1524" layer="91"/>
 <junction x="119.38" y="74.93"/>
@@ -3548,7 +3550,7 @@ based on the ehx big muff pi and colorsound supa tonebender
 <wire x1="104.14" y1="68.58" x2="107.95" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
-<wire x1="101.6" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="68.58" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <junction x="104.14" y="45.72"/>
@@ -3597,10 +3599,10 @@ based on the ehx big muff pi and colorsound supa tonebender
 <wire x1="182.88" y1="55.88" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
 <junction x="182.88" y="55.88"/>
-<pinref part="SW1" gate="_B" pin="2"/>
+<pinref part="CLIP" gate="_B" pin="2"/>
 <wire x1="175.26" y1="55.88" x2="182.88" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="55.88" x2="182.88" y2="52.07" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="_B" pin="1"/>
+<pinref part="CLIP" gate="_B" pin="1"/>
 <wire x1="180.34" y1="41.91" x2="175.26" y2="41.91" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="41.91" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
 <junction x="175.26" y="55.88"/>
@@ -3640,7 +3642,7 @@ based on the ehx big muff pi and colorsound supa tonebender
 <wire x1="147.32" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
 <junction x="144.78" y="55.88"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="55.88" x2="140.97" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -3844,7 +3846,7 @@ based on the ehx big muff pi and colorsound supa tonebender
 <wire x1="236.22" y1="88.9" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="73.66" x2="236.22" y2="69.85" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="73.66" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="73.66" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
 <junction x="236.22" y="73.66"/>
 </segment>
 </net>
@@ -3872,13 +3874,13 @@ based on the ehx big muff pi and colorsound supa tonebender
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="VOLUME" gate="G$1" pin="3"/>
-<wire x1="248.92" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="250.19" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="73.66" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="SW1" gate="_B" pin="3"/>
+<pinref part="CLIP" gate="_B" pin="3"/>
 <pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="185.42" y1="41.91" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="C"/>
@@ -3891,7 +3893,7 @@ based on the ehx big muff pi and colorsound supa tonebender
 <net name="N$25" class="0">
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="SW1" gate="_A" pin="1"/>
+<pinref part="CLIP" gate="_A" pin="1"/>
 <wire x1="101.6" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
