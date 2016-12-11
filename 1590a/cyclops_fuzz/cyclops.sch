@@ -2484,8 +2484,8 @@ Zener Diodes:  1N4728 - 1N4764&lt;br&gt;</description>
 <plain>
 <text x="111.76" y="97.79" size="1.9304" layer="97">3mm/LED</text>
 <text x="158.75" y="97.79" size="1.9304" layer="97">1N4148</text>
-<text x="5.08" y="17.78" size="6.4516" layer="97">CYCLOPS</text>
-<text x="5.08" y="5.08" size="1.9304" layer="97">MUFFLIKE FUZZ
+<text x="5.08" y="30.48" size="6.4516" layer="97">CYCLOPS</text>
+<text x="5.08" y="17.78" size="1.9304" layer="97">MUFFLIKE FUZZ
 modified from the runoffgroove.com 22/7
 (CMOS implementation of the ehx big muff pi)
 (c)2016 burr settles - http://bffx.us</text>
@@ -2537,7 +2537,7 @@ modified from the runoffgroove.com 22/7
 <instance part="OUT" gate="G$1" x="238.76" y="52.07"/>
 <instance part="GND" gate="G$1" x="182.88" y="13.97" rot="R180"/>
 <instance part="D5" gate="G$1" x="138.43" y="31.75"/>
-<instance part="BF1" gate="G$1" x="53.34" y="20.32"/>
+<instance part="BF1" gate="G$1" x="10.16" y="10.16"/>
 </instances>
 <busses>
 </busses>
