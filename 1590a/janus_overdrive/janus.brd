@@ -364,7 +364,7 @@ spacing: 3 holes
 <library name="logos">
 <packages>
 <package name="BF0100">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="-0.01866875" y="1.2645375"/>
 <vertex x="-0.01943125" y="1.2421875"/>
 <vertex x="-0.0199375" y="1.219834375"/>

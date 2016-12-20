@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -498,7 +498,7 @@
 </polygon>
 </package>
 <package name="BF0100">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="-0.01866875" y="1.2645375"/>
 <vertex x="-0.01943125" y="1.2421875"/>
 <vertex x="-0.0199375" y="1.219834375"/>
@@ -1140,7 +1140,7 @@
 </polygon>
 </package>
 <package name="BF0150">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="-0.029209375" y="1.905634375"/>
 <vertex x="-0.03048125" y="1.871853125"/>
 <vertex x="-0.031240625" y="1.838071875"/>
@@ -1782,7 +1782,7 @@
 </polygon>
 </package>
 <package name="BF0200">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="-0.0403875" y="2.539746875"/>
 <vertex x="-0.041909375" y="2.4947875"/>
 <vertex x="-0.042925" y="2.44983125"/>
@@ -2424,7 +2424,7 @@
 </polygon>
 </package>
 <package name="BF0250">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="-0.047496875" y="3.17779375"/>
 <vertex x="-0.04953125" y="3.121659375"/>
 <vertex x="-0.0508" y="3.065525"/>
@@ -3066,7 +3066,7 @@
 </polygon>
 </package>
 <package name="BF0300">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="-0.059815625" y="3.81126875"/>
 <vertex x="-0.062103125" y="3.743959375"/>
 <vertex x="-0.063628125" y="3.67665"/>
@@ -3708,7 +3708,7 @@
 </polygon>
 </package>
 <package name="BF0500">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="-0.098553125" y="6.3491125"/>
 <vertex x="-0.102615625" y="6.23684375"/>
 <vertex x="-0.104903125" y="6.124575"/>
@@ -4350,7 +4350,7 @@
 </polygon>
 </package>
 <package name="BF1000">
-<polygon width="0" layer="51">
+<polygon width="0" layer="21">
 <vertex x="-0.197103125" y="12.7007625"/>
 <vertex x="-0.204978125" y="12.475971875"/>
 <vertex x="-0.209803125" y="12.25118125"/>
