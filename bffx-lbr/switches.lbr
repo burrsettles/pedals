@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -211,7 +211,6 @@
 <pad name="C1" x="5.08" y="5.08" drill="2.8" rot="R180"/>
 <pad name="C2" x="5.08" y="0" drill="2.8" rot="R180"/>
 <pad name="C3" x="5.08" y="-5.08" drill="2.8" rot="R180"/>
-<text x="0" y="8.382" size="1.27" layer="21" ratio="12" align="center">&gt;NAME</text>
 </package>
 <package name="3PDT2">
 <circle x="0" y="0" radius="0.635" width="0.127" layer="22"/>
