@@ -68,8 +68,12 @@ Note: The Ross version supposedly used a 4558 dual op-amp. The JANUS is only lai
 ![layout](layout.png "JANUS")
 
 
-### build pic
+### build pics
 
 ![layout](janus_build_20160612.jpg "JANUS")
 
 12 June 2016
+
+![layout](janus_build_20170529.jpg "JANUS")
+
+29 May 2017

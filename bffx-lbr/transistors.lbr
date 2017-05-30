@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -358,9 +358,9 @@ grid 2.54 mm</description>
 <pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <text x="3.683" y="0.635" size="1.778" layer="95">&gt;NAME</text>
 <text x="3.683" y="-1.651" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.27" y="2.54" size="0.8128" layer="93">D</text>
-<text x="1.27" y="-3.175" size="0.8128" layer="93">S</text>
-<text x="-3.175" y="-1.27" size="0.8128" layer="93">G</text>
+<text x="1.27" y="3.175" size="0.8128" layer="97">D</text>
+<text x="1.27" y="-3.81" size="0.8128" layer="97">S</text>
+<text x="-2.54" y="-1.905" size="0.8128" layer="97">G</text>
 </symbol>
 <symbol name="NPN">
 <rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
