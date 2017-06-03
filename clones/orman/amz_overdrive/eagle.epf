@@ -1,0 +1,45 @@
+[Eagle]
+Version="07 05 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-7.5.0/lbr/frames.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/40xx-2.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/PedalSync_Module_Footprint_Library_v2.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/Relay.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/SMD.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/capacitors-elec.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/capacitors-film.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/diodes.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/enclosures.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/headers.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/inductors.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/integrated circuits.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/jacks.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/logos.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/misc.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/ota.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/potentiometers.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/regulators.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/resistors.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/submini tubes.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/supply pins.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/switches.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/transformer.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/transistors.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/tubes.lbr"
+UsedLibrary="/Users/bsettles/Desktop/pedals/bffx-lbr/vactrol.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 -22 599 377"
+State=1
+Number=0
+
+[Desktop]
+Screen="1680 1050"
+Window="Win_1"
